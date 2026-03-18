@@ -2,7 +2,7 @@
 
 # مشروع from openpyxl import load_workbook
 from openpyxl import load_workbook
-file_path = r"C:\\Users\\Lenovo\\Desktop\\عرض\\JORDAN\\Ai\\studunts.xlsx" # تحديد مسار الملف
+file_path = "C:\\..\\studunts.xlsx" # تحديد مسار الملف
 
 workbook = load_workbook(file_path)  # فتح الملف
 
@@ -57,11 +57,11 @@ workbook.save(file_path)
 import openpyxl
 from openpyxl import load_workbook
 
-t= open("C:\\Users\\Lenovo\\Desktop\عرض\\JORDAN\\Ai\\nowsum.xlsx")
+t= open("C:\\..\\nowsum.xlsx")
 # print(bin(ord('6')))
 # print(bin(6))
-x= open("C:\\Users\\Lenovo\\Desktop\عرض\\JORDAN\\Ai\\nowsum.txt",'a')
-y= open("C:\\Users\\Lenovo\\Desktop\عرض\\JORDAN\\Ai\\nowsum.txt",'w') # if not founded python will founded
+x= open(r"C:\..\nowsum.txt",'a')
+y= open("C:/../nowsum.txt",'w') # if not founded python will founded
 print(x.readable())  # are the file rdy to read
 # print(x.read())      # read all file
 # print(x.readline())  # read line thin line if tow print will print line1 thin line2
@@ -86,11 +86,11 @@ print('____________________________________________ مشروع')
 # H4 طباعة اسم الطالب الاعلى نسبة عند مناداة 
 
 from openpyxl import load_workbook
-file_path =	  r'C:\Users\Lenovo\Desktop\عرض\JORDAN\Ai/studunts.xlsx'
+file_path =	  r'C:/../studunts.xlsx'
 workbook  = load_workbook(file_path)
 sheet = workbook["Studunt"]
 
-# file_patha =  r'C:\Users\Lenovo\Desktop\عرض\JORDAN\Ai/newsulaiman.xlsx'  # test
+# file_patha =  r'C:/../newsulaiman.xlsx'  # test
 # workbooka  = load_workbook(file_patha)  # test
 
 def students():
